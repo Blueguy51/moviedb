@@ -1,5 +1,5 @@
 # moviedb
-This project created by Timothyus Kevin Dewanto.
+This project was created by Timothyus Kevin Dewanto.
 <br>
 Permohonan Maaf:
 <br>

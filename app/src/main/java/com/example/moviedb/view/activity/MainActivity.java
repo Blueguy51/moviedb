@@ -1,4 +1,4 @@
-package com.example.moviedb.view;
+package com.example.moviedb.view.activity;
 
 import android.os.Bundle;
 import android.view.View;

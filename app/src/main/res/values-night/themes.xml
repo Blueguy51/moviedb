@@ -13,4 +13,10 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="BackgroundL" parent="CardView">
+        <item name="android:background">@color/LGray</item>
+    </style>
+    <style name="CardColor" parent="CardView">
+        <item name="cardBackgroundColor">@color/LGray</item>
+    </style>
 </resources>

@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.MovieLibrary" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.MovieLibrary" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimaryVariant">@color/DGray</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -14,9 +14,18 @@
         <!-- Customize your theme here. -->
     </style>
     <style name="BackgroundL" parent="CardView">
-        <item name="android:background">@color/LGray</item>
+        <item name="android:background">@color/black</item>
     </style>
     <style name="CardColor" parent="CardView">
         <item name="cardBackgroundColor">@color/LGray</item>
+    </style>
+    <style name="TextAppearance.Theme" parent="CardView">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="ActionBar" parent="CardView">
+        <item name="android:background">@color/DGray</item>
+    </style>
+    <style name="BottomNavBar" parent="CardView">
+        <item name="android:navigationBarColor">@color/LGray</item>
     </style>
 </resources>

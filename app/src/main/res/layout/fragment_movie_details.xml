@@ -22,9 +22,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:fontFamily="@font/bookmanos"
+                android:fontFamily="@font/timesbd"
                 android:text="Release_Date"
-                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:theme="@style/TextAppearance.Theme"
                 app:layout_constraintStart_toStartOf="@+id/popularity_dbdetail"
                 app:layout_constraintTop_toBottomOf="@+id/popularity_dbdetail" />
 
@@ -33,9 +34,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:fontFamily="@font/bookmanos"
+                android:fontFamily="@font/timesbd"
                 android:text="Popularity"
-                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:theme="@style/TextAppearance.Theme"
                 app:layout_constraintStart_toStartOf="@+id/vote_dbdetail"
                 app:layout_constraintTop_toBottomOf="@+id/vote_dbdetail" />
 
@@ -44,9 +46,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:fontFamily="@font/bookmanos"
+                android:fontFamily="@font/timesbd"
                 android:text="Popularity :"
-                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:theme="@style/TextAppearance.Theme"
                 app:layout_constraintStart_toStartOf="@+id/layout_vote_dbdetail"
                 app:layout_constraintTop_toBottomOf="@+id/layout_vote_dbdetail" />
 
@@ -55,9 +58,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:fontFamily="@font/bookmanos"
+                android:fontFamily="@font/timesbd"
                 android:text="Vote"
-                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:theme="@style/TextAppearance.Theme"
                 app:layout_constraintStart_toStartOf="@+id/rating_dbdetail"
                 app:layout_constraintTop_toBottomOf="@+id/rating_dbdetail" />
 
@@ -66,9 +70,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:fontFamily="@font/bookmanos"
+                android:fontFamily="@font/timesbd"
                 android:text="Vote :"
-                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:theme="@style/TextAppearance.Theme"
                 app:layout_constraintStart_toStartOf="@+id/layout_rating_dbdetailtextView5"
                 app:layout_constraintTop_toBottomOf="@+id/layout_rating_dbdetailtextView5" />
 
@@ -78,16 +83,160 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="45dp"
                 android:layout_marginBottom="16dp"
-                android:fontFamily="@font/castelar"
+                android:fontFamily="@font/timesbd"
                 android:text="Title"
                 android:textAlignment="center"
-                android:textColor="@color/white"
                 android:textSize="34sp"
                 android:textStyle="bold"
+                android:theme="@style/TextAppearance.Theme"
                 app:layout_constraintBottom_toTopOf="@+id/imageView_dbdetail"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/layout_minititle_dbdetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/timesbd"
+                android:text="Title :"
+                android:textSize="16sp"
+                android:theme="@style/TextAppearance.Theme"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divider"
+                tools:text="Title :" />
+
+            <TextView
+                android:id="@+id/tagline_dbdetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/timesbd"
+                android:text="Tagline"
+                android:textSize="16sp"
+                android:theme="@style/TextAppearance.Theme"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView_dbdetail" />
+
+            <TextView
+                android:id="@+id/minitittle_dbdetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="84dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/timesbd"
+                android:text="MiniTitle"
+                android:textSize="16sp"
+                android:theme="@style/TextAppearance.Theme"
+                app:layout_constraintStart_toEndOf="@+id/layout_minititle_dbdetail"
+                app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+            <TextView
+                android:id="@+id/genre_dbdetail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:fontFamily="@font/timesbd"
+                android:text="Genre"
+                android:textSize="16sp"
+                android:theme="@style/TextAppearance.Theme"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/minitittle_dbdetail"
+                app:layout_constraintTop_toBottomOf="@+id/minitittle_dbdetail" />
+
+            <TextView
+                android:id="@+id/rating_dbdetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/timesbd"
+                android:text="Rating"
+                android:textSize="16sp"
+                android:theme="@style/TextAppearance.Theme"
+                app:layout_constraintStart_toStartOf="@+id/genre_dbdetail"
+                app:layout_constraintTop_toBottomOf="@+id/genre_dbdetail" />
+
+            <TextView
+                android:id="@+id/layout_genre_dbdetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/timesbd"
+                android:text="Genre :"
+                android:textSize="16sp"
+                android:theme="@style/TextAppearance.Theme"
+                app:layout_constraintStart_toStartOf="@+id/layout_minititle_dbdetail"
+                app:layout_constraintTop_toBottomOf="@+id/layout_minititle_dbdetail"
+                tools:text="Genre :" />
+
+            <TextView
+                android:id="@+id/note_dbdetail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:fontFamily="@font/timesbd"
+                android:text="Synopsis"
+                android:textSize="16sp"
+                android:theme="@style/TextAppearance.Theme"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/synopsis_dbdetail" />
+
+            <TextView
+                android:id="@+id/synopsis_dbdetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/timesbd"
+                android:text="Synopsis :"
+                android:textSize="16sp"
+                android:theme="@style/TextAppearance.Theme"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/company_dbdetail" />
+
+            <TextView
+                android:id="@+id/layout_rating_dbdetailtextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/timesbd"
+                android:text="Rating :"
+                android:textSize="16sp"
+                android:theme="@style/TextAppearance.Theme"
+                app:layout_constraintStart_toStartOf="@+id/layout_genre_dbdetail"
+                app:layout_constraintTop_toTopOf="@+id/rating_dbdetail"
+                tools:text="Rating :" />
+
+            <TextView
+                android:id="@+id/layout_release_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/timesbd"
+                android:text="Release Date :"
+                android:textSize="16sp"
+                android:theme="@style/TextAppearance.Theme"
+                app:layout_constraintStart_toStartOf="@+id/layout_popularity_dbdetail"
+                app:layout_constraintTop_toBottomOf="@+id/layout_popularity_dbdetail" />
+
+            <TextView
+                android:id="@+id/layout_production_dbdetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/timesbd"
+                android:text="Production\nCompany :"
+                android:textSize="16sp"
+                android:theme="@style/TextAppearance.Theme"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layout_release_date" />
 
             <ImageView
                 android:id="@+id/imageView_dbdetail"
@@ -99,56 +248,6 @@
                 app:layout_constraintTop_toBottomOf="@+id/title_dbdetail"
                 app:srcCompat="@drawable/ic_launcher_foreground" />
 
-            <TextView
-                android:id="@+id/tagline_dbdetail"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:fontFamily="@font/bookmanos"
-                android:text="Tagline"
-                android:textColor="@color/white"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView_dbdetail" />
-
-            <TextView
-                android:id="@+id/layout_minititle_dbdetail"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
-                android:fontFamily="@font/bookmanos"
-                android:text="Title :"
-                android:textColor="@color/white"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/divider"
-                tools:text="Title :" />
-
-            <TextView
-                android:id="@+id/minitittle_dbdetail"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="84dp"
-                android:layout_marginTop="8dp"
-                android:fontFamily="@font/bookmanos"
-                android:text="MiniTitle"
-                android:textColor="@color/white"
-                app:layout_constraintStart_toEndOf="@+id/layout_minititle_dbdetail"
-                app:layout_constraintTop_toBottomOf="@+id/divider" />
-
-            <TextView
-                android:id="@+id/genre_dbdetail"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="32dp"
-                android:fontFamily="@font/bookmanos"
-                android:text="Genre"
-                android:textColor="@color/white"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="@+id/minitittle_dbdetail"
-                app:layout_constraintTop_toBottomOf="@+id/minitittle_dbdetail" />
-
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/company_dbdetail"
                 android:layout_width="0dp"
@@ -157,66 +256,6 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/release_date_dbdetail"
                 app:layout_constraintTop_toBottomOf="@+id/release_date_dbdetail" />
-
-            <TextView
-                android:id="@+id/note_dbdetail"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="24dp"
-                android:fontFamily="@font/bookmanos"
-                android:text="Synopsis"
-                android:textColor="@color/white"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/synopsis_dbdetail" />
-
-            <TextView
-                android:id="@+id/synopsis_dbdetail"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
-                android:fontFamily="@font/bookmanos"
-                android:text="Synopsis :"
-                android:textColor="@color/white"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/company_dbdetail" />
-
-            <TextView
-                android:id="@+id/layout_rating_dbdetailtextView5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/bookmanos"
-                android:text="Rating :"
-                android:textColor="@color/white"
-                app:layout_constraintStart_toStartOf="@+id/layout_genre_dbdetail"
-                app:layout_constraintTop_toTopOf="@+id/rating_dbdetail"
-                tools:text="Rating :" />
-
-            <TextView
-                android:id="@+id/rating_dbdetail"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:fontFamily="@font/bookmanos"
-                android:text="Rating"
-                android:textColor="@color/white"
-                app:layout_constraintStart_toStartOf="@+id/genre_dbdetail"
-                app:layout_constraintTop_toBottomOf="@+id/genre_dbdetail" />
-
-            <TextView
-                android:id="@+id/layout_genre_dbdetail"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:fontFamily="@font/bookmanos"
-                android:text="Genre :"
-                android:textColor="@color/white"
-                app:layout_constraintStart_toStartOf="@+id/layout_minititle_dbdetail"
-                app:layout_constraintTop_toBottomOf="@+id/layout_minititle_dbdetail"
-                tools:text="Genre :" />
 
             <View
                 android:id="@+id/divider"
@@ -229,29 +268,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tagline_dbdetail"
                 tools:visibility="invisible" />
-
-            <TextView
-                android:id="@+id/layout_release_date"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:fontFamily="@font/bookmanos"
-                android:text="Release Date :"
-                android:textColor="@color/white"
-                app:layout_constraintStart_toStartOf="@+id/layout_popularity_dbdetail"
-                app:layout_constraintTop_toBottomOf="@+id/layout_popularity_dbdetail" />
-
-            <TextView
-                android:id="@+id/layout_production_dbdetail"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
-                android:fontFamily="@font/bookmanos"
-                android:text="Production\nCompany :"
-                android:textColor="@color/white"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/layout_release_date" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

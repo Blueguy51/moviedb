@@ -22,7 +22,7 @@ public class MovieDBDetail extends AppCompatActivity {
 
     private TextView title_dbdetail;
     private ImageView imageView_dbdetail;
-    private TextView note_dbdetail;
+    private TextView note_dbdetail = findViewById(R.id.note_dbdetail);
     private TextView genre_dbdetail;
     private MovieViewModel model_view;
     private String movieid;
@@ -34,7 +34,6 @@ public class MovieDBDetail extends AppCompatActivity {
 
         title_dbdetail = findViewById(R.id.title_dbdetail);
         imageView_dbdetail = findViewById(R.id.imageView_dbdetail);
-        note_dbdetail = findViewById(R.id.note_dbdetail);
         genre_dbdetail = findViewById(R.id.genre_dbdetail);
 
         Intent intent = getIntent();

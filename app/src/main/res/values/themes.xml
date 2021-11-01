@@ -3,7 +3,7 @@
     <style name="Theme.MovieLibrary" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/Gold</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimaryVariant">@color/LOrange</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -14,9 +14,15 @@
         <!-- Customize your theme here. -->
     </style>
     <style name="BackgroundL" parent="CardView">
-        <item name="android:background">@color/black</item>
+        <item name="android:background">@color/LOrange</item>
     </style>
     <style name="CardColor" parent="CardView">
         <item name="cardBackgroundColor">@color/Gold</item>
+    </style>
+    <style name="TextAppearance.Theme" parent="CardView">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="ActionBar" parent="CardView">
+        <item name="android:background">@color/Orange</item>
     </style>
 </resources>
